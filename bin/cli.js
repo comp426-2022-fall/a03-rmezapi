@@ -9,7 +9,5 @@ const dice = args.dice || 2
 const rolls = args.rolls || 1
 const results = roll(sides, dice, rolls)
 
-const out = JSON.stringify({"sides": sides, "dice": dice, "rolls": rolls, "results":results})
-
-console.log(out)
+console.log(results)
 
